@@ -2,13 +2,13 @@
 .info-2,
 .info-3 {
     width: 30%;
-    color: white;
+    color: rgb(246, 237, 237);
     text-shadow: 1px 1px 1px black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0 0.5rem 0 0;
-    padding: 0.5em;
+    padding: 0.10em;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -19,7 +19,6 @@
 
 .info-2 {
     background-image: url(/task-2/assets/task2-bg1.jpeg);
-
 }
 
 .info-3 {
@@ -28,6 +27,7 @@
 
 .all-infos {
     width: 100%;
+    height: 250px;
     display: flex;
     align-content: space-between;
 }
